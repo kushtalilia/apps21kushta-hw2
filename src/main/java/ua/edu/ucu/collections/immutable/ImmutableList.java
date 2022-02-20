@@ -13,7 +13,7 @@ public interface ImmutableList {
 
     Object get(int index);
 
-    ImmutableList remove(int index);
+    Object remove(int index);
 
     ImmutableList set(int index, Object e);
 
